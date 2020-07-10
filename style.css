@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+}
+
+section{
+    height: 680px;
+}
+.hero-area {
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.special-text {
+    color: #EC4C7A;
+    margin-top: 18px;
+}
+
+.hero-content h1 {
+    font-size: 45px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.click-btn {
+    background: linear-gradient(45deg, #EC4F8E, #EC4B74);
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.hero-content {
+    margin-left: 12%;
+    margin-top: 11%;
+}
+
+
+
+.biography-area{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.biography-img img {
+    width: 100%;
+}
+
+.biography-content {
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.latest-work-section {
+    height: 600px;
+    text-align: center;
+    background-size: cover;
+    background: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.latest-work-section h2{
+    margin: 90px;
+    font-size: 40px;
+}
+
+.img-division img{
+    width: 26%;
+    margin-left: 30px;
+}
+.footer-section{
+    text-align: center;
+    background-size: cover;
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.client{
+    margin-top: 80px;
+}
+.describe-me{
+    margin: auto;
+    width: 400px;
+    margin-bottom: 130px;
+}
+.describe-me p{
+    font-size: 17px;
+    color: black;
+    margin-top: 70px;
+    font-weight: 500;
+}
+.contact{
+    margin: auto;
+    background: linear-gradient(45deg, #ec4f8f, #ed4b72);
+    width: 450px;
+    padding: 55px 120px;
+    border-radius: 7px;
+    color: white;
+}
+.contact p{
+    margin-bottom: 2px;
+    color: white;
+}
+
+.copyright-text {
+    color: gray;
+    margin-top: 60px;
+}
