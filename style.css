@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+
 body{
     margin: 0px;
+    font-family: 'Markazi Text', serif;
 }
 
+p{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 45px;
+}
 section{
     height: 680px;
 }
@@ -12,12 +22,9 @@ section{
 }
 .special-text {
     color: #EC4C7A;
-    margin-top: 18px;
+    margin-top: -24px;
 }
 
-.hero-content h1 {
-    font-size: 45px;
-}
 
 .half-width {
     width: 40%;
@@ -26,6 +33,7 @@ section{
 
 .hero-img img {
     width: 100%;
+    margin-left: -32%;
 }
 
 .click-btn {
@@ -36,10 +44,14 @@ section{
     display: inline-block;
     padding: 10px 25px;
     border-radius: 3px;
+    font-size: 22px;
 }
 
+.click-btn:hover{
+    background: linear-gradient(145deg,#B1496D, #EC4F8E );
+} 
 .hero-content {
-    margin-left: 12%;
+    margin-left: 19%;
     margin-top: 11%;
 }
 
@@ -52,7 +64,9 @@ section{
 }
 
 .biography-img img {
-    width: 100%;
+    width: 70%;
+    margin-left: 30%;
+    padding-top: 20%;
 }
 
 .biography-content {
@@ -60,57 +74,71 @@ section{
     margin-top: 15%;
 }
 
-.latest-work-section {
-    height: 600px;
-    text-align: center;
-    background-size: cover;
-    background: url(img/latest-work-bg.png);
+.latest-work-area {
+    background-image: url(img/latest-work-bg.png);
     background-repeat: no-repeat;
-    
-}
-.latest-work-section h2{
-    margin: 90px;
-    font-size: 40px;
+    background-size: cover;
+    background-position: bottom;
 }
 
-.img-division img{
-    width: 26%;
-    margin-left: 30px;
+.portfolio-work img {
+    width: 29%;
+    margin-left: 16px;
+   
 }
-.footer-section{
+.portfolio-work img:hover {
+    box-shadow: 5px 7px 27px grey;
+}
+
+.portfolio-work img:hover{
+    box-shadow: 5px 7px 27px grey;
+    
+}
+
+.latest-work-area h1 {
     text-align: center;
-    background-size: cover;
+    margin-bottom: 67px;
+    margin-top: 84px;
+}
+
+.portfolio-work {
+    margin-left: 80px;
+}
+
+
+.footer-section-area {
+    text-align: center;
+    font-size: 20px;
     background-image: url(img/footer-bg.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -171px;
 }
-.client{
-    margin-top: 80px;
+
+
+
+.footer-span-content {
+    margin-top: 135px;
 }
-.describe-me{
-    margin: auto;
-    width: 400px;
-    margin-bottom: 130px;
-}
-.describe-me p{
-    font-size: 17px;
-    color: black;
-    margin-top: 70px;
+
+
+.gray-text {
+    margin-top: -17px;
     font-weight: 500;
+    color: gray;
 }
-.contact{
-    margin: auto;
-    background: linear-gradient(45deg, #ec4f8f, #ed4b72);
-    width: 450px;
-    padding: 55px 120px;
-    border-radius: 7px;
+
+.contact {
+    background: #EC4C7B;
     color: white;
-}
-.contact p{
-    margin-bottom: 2px;
-    color: white;
+    padding: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    margin-top: 70px;
 }
 
 .copyright-text {
     color: gray;
-    margin-top: 60px;
+    margin-top: 100px;
 }
